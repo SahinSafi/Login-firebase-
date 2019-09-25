@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/EmailTextID"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="E-Mail"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        />
+    <EditText
+        android:id="@+id/PasswordTextID"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        />
+    <Button
+        android:id="@+id/signInButtonID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:background="#2196F3"
+        android:textColor="#fff"/>
+    <TextView
+        android:id="@+id/signUpTextID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account? SignUp"
+        android:textSize="15sp"
+        android:textColor="#2196F3"
+        android:layout_margin="10dp"/>
+    <ProgressBar
+        android:id="@+id/progressBarID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:visibility="gone"/>
+
+</LinearLayout>

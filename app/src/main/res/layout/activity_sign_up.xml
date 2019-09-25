@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/SignUpEmailTextID"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="E-Mail"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        />
+    <EditText
+        android:id="@+id/SignUpPasswordId"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        />
+    <Button
+        android:id="@+id/signUpButtonID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SignUp"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:background="#2196F3"
+        android:textColor="#fff"/>
+    <TextView
+        android:id="@+id/signInTextID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go login page"
+        android:textSize="15sp"
+        android:textColor="#2196F3"
+        android:layout_margin="10dp"/>
+    <ProgressBar
+        android:id="@+id/progressBar2ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:visibility="gone"/>
+
+</LinearLayout>
